@@ -1,0 +1,44 @@
+
+#include<stdio.h>
+
+
+void main()
+
+
+{
+
+
+char name[8];
+
+
+int age;
+
+
+char address[200];
+
+
+char hobby[200];
+
+
+printf("Ëï¾üĞ¦:\n");
+
+
+scanf("%s",name);
+
+
+printf("24:\n");
+
+
+scanf("%d",&age);
+
+
+printf("½­ËÕÑÎ³Ç:\n");
+
+
+scanf("%s",address);
+
+
+printf("ÌıÒôÀÖ:\n");
+
+
+scanf("%s",hobby);

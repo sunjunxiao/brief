@@ -1,0 +1,201 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+#include<windows.h>
+
+ 
+
+void DrawPic();
+
+void printSpace();
+
+int main()
+
+{
+
+    int i;
+
+    int j=3;
+
+    printf("   ***       ***\n");
+
+    printf("  ******   ******\n");
+
+    printf(" *****************\n");
+
+    printf("  ******* *******\n");
+
+    printf("   ***   S   ***\n");
+
+    printf("     **** ****\n");
+
+    printf("       *****\n");
+
+    printf("         * \n");
+
+    Sleep(1500);
+
+    printf("   ***       ***\n");
+
+    printf("  ******   ******\n");
+
+    printf(" *****************\n");
+
+    printf("  ******* *******\n");
+
+    printf("   ***   U  ***\n");
+
+    printf("     **** ****\n");
+
+    printf("       *****\n");
+
+    printf("         * \n");
+
+    Sleep(1500);
+
+    printf("   ***       ***\n");
+
+    printf("  ******   ******\n");
+
+    printf(" *****************\n");
+
+    printf("  ******* *******\n");
+
+    printf("   ***   N   ***\n");
+
+    printf("     **** ****\n");
+
+    printf("       *****\n");
+
+    printf("         * \n");
+
+    Sleep(1500);
+
+    system("cls");
+
+    printf("   ***       ***\n");
+
+    printf("  ******   ******\n");
+
+    printf(" *****************\n");
+
+    printf("  ******* *******\n");
+
+    printf("   **** Sun ****\n");
+
+    printf("     **** ****\n");
+
+    printf("       *****\n");
+
+    printf("         * \n");
+
+    Sleep(1500);
+
+    system("cls");
+
+    printf("大家好~很高兴认识你们！\n\n");
+
+    Sleep(2000);
+
+    printf("我叫孙军笑！也有很多人叫我大佐！\n\n");
+
+    Sleep(2000);
+
+    printf("啊？你想问为毛他们叫我大佐？\n\n");
+
+    Sleep(2000);
+
+    printf("秘密！\n\n");
+
+    Sleep(2000);
+
+    system("cls");
+
+    printf("相信我们大家一定能成为友好的一家人~~~~\n\n");
+
+    Sleep(2000);
+
+ 
+
+    while(j!=0)
+
+    {
+
+    for(i=0;i<30;i++)
+
+    {
+
+        DrawPic(i);
+
+        Sleep(100);
+
+        system("cls");
+
+    }
+
+    j--;
+
+    }
+
+    system("cls");
+
+}
+
+    void DrawPic(int flag)
+
+{
+
+    printSpace(flag);
+
+    printf("   ***       ***\n");
+
+    printSpace(flag);
+
+    printf("  ******   ******\n");
+
+    printSpace(flag);
+
+    printf(" *****************\n");
+
+    printSpace(flag);
+
+    printf("  ******* *******\n");
+
+    printSpace(flag);
+
+    printf("   *****DOg3****\n");
+
+    printSpace(flag);
+
+    printf("     **** ****\n");
+
+    printSpace(flag);
+
+    printf("       *****\n");
+
+    printSpace(flag);
+
+    printf("         * \n");
+
+}
+
+ 
+
+void printSpace(int i)
+
+{
+
+    int j;
+
+    for(j=0;j<=i;j++)
+
+    {
+
+        printf(" ");
+
+    }
+
+}
+
+ 
